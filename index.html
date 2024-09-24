@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>날씨 알려줭</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+</head>
+<body>
+    <div class="main">
+        <video class="videoweather" src= '#' loop muted autoplay></video>
+        <header>
+            <a href="#" ><i class="bi bi-grid"style="font-size: 3rem;"></i></a>
+        <div>
+            <a class="setting" href="#" title="환경 설정"><i class="bi bi-gear-fill" style="font-size: 3rem;"></i></a>
+            <a class="mail" href="https://mail.google.com/" title="메일" ><i class="bi bi-envelope"style="font-size: 3rem;"></i></a>
+        </div>
+        </header>
+        <nav>
+            <h1 class="navtitle">SearchTIME!!</h1>
+            <form class="searchBox" action="" method="get">
+                <input class="searchText" type="text" name="query" placeholder="검색 또는 URL 입력">
+                <button class="searchBtn" type="submit">
+                <i class="bi bi-search"></i>
+            </button>
+            </form>
+            <div class="result"></div>
+            <div class="nowdate"></div>
+        </nav>
+    
+     <footer>
+        <div>
+            <i class="bi bi-c-circle" style="font-size: 1rem;"></i>
+        Weather Company. All Rights Reseved.
+    </div>
+     </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
