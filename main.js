@@ -52,29 +52,29 @@
                 switch(itempty.fcstValue)
                 {
                     case '0': //맑음
-                    $('.videoweather').attr('src','/Sunny.mp4');
+                    $('.videoweather').attr('src','./Sunny.mp4');
                     break;
                     case '1': //비
-                    $('.videoweather').attr('src','/rain.mp4');
+                    $('.videoweather').attr('src','./rain.mp4');
                     break;
                     case '2'://눈/비
                         if(itempcp.fcstValue==="강수없음")
                         {
-                            $('.videoweather').attr('src','/snow.mp4');
+                            $('.videoweather').attr('src','./snow.mp4');
                         }
                         else if(itemsno.fcstValue==="적설없음")
                         {
-                            $('.videoweather').attr('src','/rain.mp4');
+                            $('.videoweather').attr('src','./rain.mp4');
                         }
                         else{
-                            $('.videoweather').attr('src','/rain.mp4');
+                            $('.videoweather').attr('src','./rain.mp4');
                         }
                     break;
                     case '3': //눈
-                    $('.videoweather').attr('src','/snow.mp4');
+                    $('.videoweather').attr('src','./snow.mp4');
                     break;
                     case'4': //구름
-                    $('.videoweather').attr('src','/cloud.mp4');
+                    $('.videoweather').attr('src','./cloud.mp4');
                     break;
                     default: 
                     alert('예기치않은 정보입니다.');
