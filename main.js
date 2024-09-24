@@ -41,7 +41,7 @@
 
         //날씨 데이터
         $.getJSON(
-            `http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?ServiceKey=eYwkh4fz1b9pduJtQ7q1Tm03wiKXkhkLY2e%2BGayXUqUUKNOWLkoSpd3aYXEfO5J7ac0i%2FKv3VxVfrDVMc3NUqQ%3D%3D&pageNo=1&numOfRows=12&dataType=json&base_date=${dateString}&base_time=${nowhours}&nx=58&ny=125`,
+            `https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?ServiceKey=eYwkh4fz1b9pduJtQ7q1Tm03wiKXkhkLY2e%2BGayXUqUUKNOWLkoSpd3aYXEfO5J7ac0i%2FKv3VxVfrDVMc3NUqQ%3D%3D&pageNo=1&numOfRows=12&dataType=json&base_date=${dateString}&base_time=${nowhours}&nx=58&ny=125`,
             function(data){
                 let itemsky=data.response.body.items.item[5];
                 let itempty=data.response.body.items.item[6];
