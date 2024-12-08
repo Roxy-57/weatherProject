@@ -41,7 +41,7 @@
 
         //날씨 데이터
         $.getJSON(
-            `https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?ServiceKey=eYwkh4fz1b9pduJtQ7q1Tm03wiKXkhkLY2e%2BGayXUqUUKNOWLkoSpd3aYXEfO5J7ac0i%2FKv3VxVfrDVMc3NUqQ%3D%3D&pageNo=1&numOfRows=12&dataType=json&base_date=${dateString}&base_time=${nowhours}&nx=58&ny=125`,
+            `https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?ServiceKey=나의서비스키&pageNo=1&numOfRows=12&dataType=json&base_date=${dateString}&base_time=${nowhours}&nx=58&ny=125`,
             function(data){
                 let itemsky=data.response.body.items.item[5];
                 let itempty=data.response.body.items.item[6];
@@ -111,7 +111,7 @@
                     method: "GET",
                     url: "https://dapi.kakao.com/v2/search/web",
                     data: { query: query },
-                    headers: { Authorization: "KakaoAK afec0777303fda74e3aeba25c188e814" }, 
+                    headers: { Authorization: "KakaoAK 서비스키" }, 
                     success: function(response) {
                         console.log("검색 결과:", response);
                         let resultHTML = '';
