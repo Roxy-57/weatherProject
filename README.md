@@ -28,6 +28,10 @@
 - 미완성된 아이콘 기능들도 추가 할 수 있다면 추가 할 예정입니다.
 - API 관리 방법이 있다고하여 보안에 더 철저할수 있도록 할 예정입니다.
 
+## 어려웠던 점
+- OPEN API 의 데이터 구조를 처음에 정확히 이해하지 못하여 데이터 추출에 어려움을 겪었습니다.
+- 데이터를 추출해보면서 API의 숙련도를 올렸습니다.
+- API의 중요 키 관리에 곤란을 겪었습니다. 해결방안을 찾아보던중 환경 변수를 알게 되었습니다.
 
 ## 프로젝트 이미지
 | ![맑음](https://github.com/user-attachments/assets/be5a11eb-931f-492a-b8f0-9e886afa981b) | ![흐림](https://github.com/user-attachments/assets/ae145efc-b82c-492f-ac32-927fe0e06c4f) |
