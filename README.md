@@ -20,9 +20,6 @@
 - 카카오 API (웹 검색 데이터)
 
   
-작업 기간
-- 2024.9.13 ~9.20 (1주)
-개인 프로젝트
 
 ## 기술 스택 (Skill)
 - ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
